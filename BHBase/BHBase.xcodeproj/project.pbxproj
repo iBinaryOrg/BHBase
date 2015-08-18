@@ -163,8 +163,9 @@
 		20A1FD6A1B83268D00944C68 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BH;
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = BH;
+				ORGANIZATIONNAME = iBinaryOrg;
 				TargetAttributes = {
 					20A1FD711B83268D00944C68 = {
 						CreatedOnToolsVersion = 6.3.2;
