@@ -13,6 +13,7 @@
 		20A1FD831B83268D00944C68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A1FD821B83268D00944C68 /* Images.xcassets */; };
 		20A1FD861B83268D00944C68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A1FD841B83268D00944C68 /* LaunchScreen.xib */; };
 		20A1FD921B83268D00944C68 /* BHBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A1FD911B83268D00944C68 /* BHBaseTests.m */; };
+		20A1FD9F1B84211600944C68 /* BHTestBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A1FD9E1B84211600944C68 /* BHTestBaseObject.m */; };
 		DA61A4DF1B84150F003E84CF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA61A4CE1B84150F003E84CF /* AFNetworkActivityIndicatorManager.m */; };
 		DA61A4E01B84150F003E84CF /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DA61A4D01B84150F003E84CF /* UIActivityIndicatorView+AFNetworking.m */; };
 		DA61A4E11B84150F003E84CF /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DA61A4D21B84150F003E84CF /* UIAlertView+AFNetworking.m */; };
@@ -55,6 +56,8 @@
 		20A1FD8B1B83268D00944C68 /* BHBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BHBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A1FD901B83268D00944C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20A1FD911B83268D00944C68 /* BHBaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHBaseTests.m; sourceTree = "<group>"; };
+		20A1FD9D1B84211600944C68 /* BHTestBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHTestBaseObject.h; sourceTree = "<group>"; };
+		20A1FD9E1B84211600944C68 /* BHTestBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHTestBaseObject.m; sourceTree = "<group>"; };
 		DA61A4B61B8414EA003E84CF /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
 		DA61A4CD1B84150F003E84CF /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
 		DA61A4CE1B84150F003E84CF /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 		20A1FD9C1B841DFF00944C68 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				20A1FD9D1B84211600944C68 /* BHTestBaseObject.h */,
+				20A1FD9E1B84211600944C68 /* BHTestBaseObject.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -440,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA61A4FB1B841728003E84CF /* AFURLSessionManager.m in Sources */,
+				20A1FD9F1B84211600944C68 /* BHTestBaseObject.m in Sources */,
 				DA61A4E31B84150F003E84CF /* UIImageView+AFNetworking.m in Sources */,
 				DA62DC591B832F9600A7E30E /* ViewController.m in Sources */,
 				DA61A4E41B84150F003E84CF /* UIProgressView+AFNetworking.m in Sources */,
