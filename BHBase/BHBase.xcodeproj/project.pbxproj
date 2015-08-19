@@ -135,7 +135,7 @@
 		20A1FD741B83268D00944C68 /* BHBase */ = {
 			isa = PBXGroup;
 			children = (
-				20A1FD9B1B841C5800944C68 /* Test */,
+				20A1FD9C1B841DFF00944C68 /* Test */,
 				20A1FD791B83268D00944C68 /* AppDelegate.h */,
 				20A1FD7A1B83268D00944C68 /* AppDelegate.m */,
 				DA62DC561B832E0C00A7E30E /* Tool */,
@@ -175,11 +175,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		20A1FD9B1B841C5800944C68 /* Test */ = {
+		20A1FD9C1B841DFF00944C68 /* Test */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
 		DA61A4AF1B841494003E84CF /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
